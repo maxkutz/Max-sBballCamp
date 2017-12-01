@@ -6,7 +6,7 @@
     color: white;
     padding: 14px 50px;
     text-align: center; 
-    display:inline-block;
+    display: inline-block;
     flex-basis: 30%;
  }
  a:hover {
