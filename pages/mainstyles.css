@@ -1,4 +1,4 @@
- body { 
+  body { 
    Background-color:darkorange;
  }
  a:link, a:visited {
@@ -16,6 +16,11 @@
     animation-iteration-count: 1;
     
 }
+ #map {
+        height: 400px;
+        width: 100%;
+        margin:20px;
+       }
 
 
 @-webkit-keyframes toplink {
