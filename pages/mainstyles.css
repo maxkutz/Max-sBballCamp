@@ -42,7 +42,10 @@
   padding:20px 40px;
   display:flex;
 }
-
+.form {
+  display:flex;
+  margin-left:160px;
+}
 .main-column {
   order:1;
   flex:1;
