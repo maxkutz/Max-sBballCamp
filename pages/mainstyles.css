@@ -5,6 +5,7 @@
     background-color: black;
     color: white;
     padding: 14px 50px;
+   text-decoration: none;
     text-align: center; 
     display: inline-block;
     flex-basis: 30%;
