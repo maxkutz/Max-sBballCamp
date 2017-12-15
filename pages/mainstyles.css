@@ -77,16 +77,27 @@
   max-width:250px;
 }
 .call-outs-container {
-  max-width: 900px;
-  margin: 20px auto 0 auto;
+  max-width:800px;
+  margin:40px auto 0 auto;
   display:flex;
-  justify-content: space-between;
 }
 .call-out {
-  padding: 20px;
-  box-sizing: border-box;
-  margin-bottom: 20px;
-  flex-basis: 49%;
+  padding:20px;
+  box-sizing:border-box;
+  margin-bottom:20px;
+  flex:2;
+  width: 30%;
 }
 .call-out:nth-child(1) {background-color:red;}
 .call-out:nth-child(2) {background-color:yellow;}
+
+button {
+  background-color: blue;
+  color: white;
+  width: 5rem;
+  height: 2rem;
+  margin: 20px auto;
+}
+#buttondiv {
+  text-align:center;
+}
