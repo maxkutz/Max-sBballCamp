@@ -26,7 +26,9 @@
 </ul>  
   </div>
   </div>
-  <div class="call-outs-container">
+  <button id="hidebutton" onclick="HideOffers()">Hide Offers</button>
+  
+  <div id="specialoffers" class="call-outs-container">
     <div class="call-out">
       <h5> Kids Night</h5>
       On Wednesday, December 20, price of admission for all children under 12 is halved!(You must RSVP by the 6th to ensure space for your participant.) 
@@ -43,5 +45,15 @@
       </nav>
     </div>
   </div>
+  
+  <script>
+    function HideOffers(){
+      var x = document.getElementById("specialoffers");
+      var y = document.getElementById("hidebutton");
+      
+      x.style.display="none";
+      y.style.display="none";
+    }
+  </script>
 </body>  
 </html>
